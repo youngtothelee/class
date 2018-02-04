@@ -59,6 +59,15 @@ void punctuationTests(void) {
 	printf("****DONE****\n");
 }
 
+
+void myTest(void) {
+        printf("\n\n******* Starting My Test ********\n");
+        char dictionary[]="\nhat\nsit\n";
+        char article[]="~hat!0sit_";
+        spellCheck(article, dictionary);
+        printf("****DONE****\n");
+}
+
 void generalTest1(void) {
 	printf("\n\n******* Starting General Test #1 *******\n");
 	readFile("greek-finances.txt", article);
@@ -81,6 +90,7 @@ int main(void) {
     fruityTest();
     dogTest();
     punctuationTests();
+    myTest();
     generalTest1();
     generalTest2();
 }	

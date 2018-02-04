@@ -39,11 +39,8 @@ bool lettertest(char letter){
 
 int wordtest(char test[], char diction[]){
     int i=0, j=0, result=0;
-    char x=0, y=0;
 
     while(diction[j]!=0){
-        x=test[i];
-        y=diction[j];
             if((test[i]==diction[j])||((test[i]-32)==diction[j])||(test[i]==(diction[j]-32))){
                  i++;
                  j++;
@@ -73,7 +70,7 @@ void spellCheck(char article[], char dictionary[]) {
         if(lettertest(article[i]) && lettertest(article[i+1])){
             j=i;
 
-            while((article[j]<32)||(article[j]>64)){
+            while((article[j]>64 && article[j]<91)||(article[j]>96 && article[j]<123)){
                 if(article[j+1]==0){
                     counter++;
                     break;
