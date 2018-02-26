@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/youngjoonlee/Desktop/Project3_starter_files/Project3.cpp
+assert.h
+-
+stdio.h
+-
+stdbool.h
+-
+stdlib.h
+-
+stdint.h
+-
+string.h
+-
+String.h
+/Users/youngjoonlee/Desktop/Project3_starter_files/String.h
+
+/Users/youngjoonlee/Desktop/Project3_starter_files/String.h
+stdint.h
+-
+
+/Users/youngjoonlee/Desktop/Project3_starter_files/main.cpp
+stdio.h
+-
+string.h
+-
+String.h
+/Users/youngjoonlee/Desktop/Project3_starter_files/String.h
+stdlib.h
+-
+
