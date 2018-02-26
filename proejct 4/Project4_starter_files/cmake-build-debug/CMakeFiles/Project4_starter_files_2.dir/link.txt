@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Project4_starter_files_2.dir/header.c.o CMakeFiles/Project4_starter_files_2.dir/main.cpp.o CMakeFiles/Project4_starter_files_2.dir/MyString.cpp.o CMakeFiles/Project4_starter_files_2.dir/Project4.cpp.o  -o Project4_starter_files_2 

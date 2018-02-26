@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/youngjoonlee/Desktop/Project4_starter_files 2/Invent.h
+MyString.h
+/Users/youngjoonlee/Desktop/Project4_starter_files 2/MyString.h
+
+/Users/youngjoonlee/Desktop/Project4_starter_files 2/MyString.cpp
+stdio.h
+-
+stdlib.h
+-
+MyString.h
+/Users/youngjoonlee/Desktop/Project4_starter_files 2/MyString.h
+
+/Users/youngjoonlee/Desktop/Project4_starter_files 2/MyString.h
+
+/Users/youngjoonlee/Desktop/Project4_starter_files 2/Project4.cpp
+stdio.h
+-
+assert.h
+-
+MyString.h
+/Users/youngjoonlee/Desktop/Project4_starter_files 2/MyString.h
+Invent.h
+/Users/youngjoonlee/Desktop/Project4_starter_files 2/Invent.h
+
+/Users/youngjoonlee/Desktop/Project4_starter_files 2/main.cpp
+stdio.h
+-
+stdlib.h
+-
+MyString.h
+/Users/youngjoonlee/Desktop/Project4_starter_files 2/MyString.h
+Invent.h
+/Users/youngjoonlee/Desktop/Project4_starter_files 2/Invent.h
+
